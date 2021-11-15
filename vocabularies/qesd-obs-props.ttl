@@ -11,7 +11,7 @@
 <https://linked.data.gov.au/def/qld-obsprop>
     a owl:Ontology , skos:ConceptScheme ;
     dcterms:created "2021-06-06"^^xsd:date ;
-    dcterms:modified "2021-06-28"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/des> ;
     dcterms:publisher <https://linked.data.gov.au/org/gsq> ;
     skos:prefLabel "Queensland Environmental Science Data Observed Properties"@en ;
@@ -510,7 +510,7 @@
     skos:definition "A grouping of properties for Cations, Anions, Alkalinity & Hardness."@en ;	
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;	
+    dcterms:modified "2021-11-15"^^xsd:date ;	
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
     skos:broader <http://linked.data.gov.au/def/tern-cv/bb5c1354-8d70-47b2-b333-87e3bf1157d6> ;
     skos:narrower
@@ -901,7 +901,7 @@
     skos:definition "Per- and polyfluoroalkyl substances (PFAS) are a diverse group of human-made chemicals used in a wide range of consumer and industrial products. Some PFAS have been more widely used and studied than others. Many PFAS are resistant to grease, oil, water, and heat. As such are environmental contaminants"@en ;	
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;	
+    dcterms:modified "2021-11-15"^^xsd:date ;	
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
     skos:broader <http://linked.data.gov.au/def/tern-cv/bb5c1354-8d70-47b2-b333-87e3bf1157d6> ;
     skos:narrower
@@ -944,7 +944,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/414e519e-56a9-59d3-8675-862a51348026>	
     a skos:Concept ;
     skos:prefLabel "Physical Properties"@en ;	
-    skos:altLabel "Physical Properties-WQI Grouping"@en ;	
+    skos:altLabel "Physical Properties-WQI Grouping"@en ;	#Suggest we remove WQI from the label
     skos:definition "A grouping of properties for Physical Properties."@en ;	
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
@@ -967,7 +967,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/a9335d70-3fc6-5181-b8fb-d6f8c938aa3d>	
     a skos:Concept ;
     skos:prefLabel "TSS & Nutrients"@en ;	
-    skos:altLabel "TSS & Nutrients-WQI Grouping"@en ;	
+    skos:altLabel "TSS & Nutrients-WQI Grouping"@en ;	#Suggest we remove WQI from the label
     skos:definition "A grouping of properties for TSS & Nutrients."@en ;	
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
@@ -4423,7 +4423,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/e373ce19-d111-5639-9ab7-b576142e58b6> 
@@ -4435,7 +4435,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/54db219b-c983-5107-90b0-9f693ac46fda> 
@@ -4447,7 +4447,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/04ca3c8a-8700-578e-9527-7281a3a379d9> 
@@ -4459,7 +4459,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/8429cd0d-871a-52d3-8d21-d09f3385696e> 
@@ -4472,7 +4472,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/8deecab2-7a72-5238-96a6-c0728a459874> 
@@ -4484,7 +4484,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/fe0102a5-ef7c-5ed1-8764-89f9ac8780df> 
@@ -4497,7 +4497,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/7c00ed1e-541b-55f3-8cf4-df941b83af61> 
@@ -4509,7 +4509,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/5a92a905-8846-5947-9c86-e866971012ff> 
@@ -4521,7 +4521,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/bb8ef87e-dac6-5eec-8b39-544da2d8a879> 
@@ -4533,7 +4533,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/f34f647f-1f0a-597e-92e8-52ef03f4e327> 
@@ -4545,7 +4545,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/fd7d6dd5-4945-5611-9600-95368ada6403> 
@@ -4558,7 +4558,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/ac4e8c90-b1e3-5abd-80ea-66bc51721df2> 
@@ -4570,7 +4570,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/bfee4260-0fef-51ff-9d49-b8a2cb76b298> 
@@ -4583,7 +4583,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/04a50109-c092-5b09-95ad-3a964de0af5c> 
@@ -4596,7 +4596,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/4e8bd355-6531-56e2-84ef-c0a7670ff1b9> 
@@ -4608,7 +4608,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/c72eb823-4d95-5eda-9f7b-6903bc809cdd> 
@@ -4620,7 +4620,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/185411c8-067e-5d79-8e76-065e4dafd2a8> 
@@ -4633,7 +4633,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/7539a155-e9cf-5216-847a-7986f15eff08> 
@@ -4645,7 +4645,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/3e6625d4-81dc-51f3-9a51-88317a667423> 
@@ -4658,7 +4658,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/d038eb15-832f-5cd8-819b-9a7e8bc08852> 
@@ -4670,7 +4670,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/cfd7fe19-df05-51a4-8f1e-d0858ac62cb0> 
@@ -4683,7 +4683,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/7c47431e-9013-5367-86c0-de90488b6485> 
@@ -4696,7 +4696,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/31ff48e7-fdc3-591e-90aa-124c3ccea1d1> 
@@ -4708,7 +4708,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/fc12ca13-f664-52e2-85dc-a2e9d4df6815> 
@@ -4721,7 +4721,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/9b74354b-e49f-56c9-8b65-fa94d6807406> 
@@ -4733,7 +4733,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/23b25096-01ff-5457-89a0-9b227b8bab7a> 
@@ -4745,7 +4745,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/323ba4ea-2ea4-54bb-96dc-2b63290d2b65> 
@@ -4757,7 +4757,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/b1199b2f-c409-507c-8822-caf08230770c> 
@@ -4769,7 +4769,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/de032c5a-d88d-50b9-8ffe-777889acd872> 
@@ -4781,7 +4781,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/3592405a-c6d6-5bf4-96d3-7415e87f0407> 
@@ -4794,7 +4794,7 @@
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-15"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/090383db-8654-52ad-96a8-58c622f65dd0> 
