@@ -4478,8 +4478,8 @@
 <https://linked.data.gov.au/def/qld-obsprop/8deecab2-7a72-5238-96a6-c0728a459874> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "N-EtFOSA LCMS"@en ; 
-    skos:definition "N-Ethyl perfluoroctan sulfonamid ("@en ; 
+    skos:prefLabel "N-EtFOSA"@en ; 
+    skos:definition "N-Ethyl perfluoroctan sulfonamid "@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
