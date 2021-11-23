@@ -897,7 +897,6 @@
 <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610>	
     a skos:Concept ;
     skos:prefLabel "PFAS"@en ;	
-    skos:altLabel "PFAS-WQI Grouping"@en ;	
     skos:definition "Per- and polyfluoroalkyl substances (PFAS) are a diverse group of human-made chemicals used in a wide range of consumer and industrial products. Some PFAS have been more widely used and studied than others. Many PFAS are resistant to grease, oil, water, and heat. As such are environmental contaminants"@en ;	
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
@@ -944,7 +943,6 @@
 <https://linked.data.gov.au/def/qld-obsprop/414e519e-56a9-59d3-8675-862a51348026>	
     a skos:Concept ;
     skos:prefLabel "Physical Properties"@en ;	
-    skos:altLabel "Physical Properties-WQI Grouping"@en ;	#Suggest we remove WQI from the label
     skos:definition "A grouping of properties for Physical Properties."@en ;	
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
@@ -4417,7 +4415,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/cb7f7035-04fc-576c-8279-25e7cdcf1d29> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "10:2 FTS "@en ; 
+    skos:prefLabel "10:2 FTS"@en ; 
     skos:definition "10:2  Fluorotelomer sulfonic acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4429,7 +4427,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/e373ce19-d111-5639-9ab7-b576142e58b6> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "4:2 FTS "@en ; 
+    skos:prefLabel "4:2 FTS"@en ; 
     skos:definition "4:2 Fluorotelomer sulfonic acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4441,7 +4439,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/54db219b-c983-5107-90b0-9f693ac46fda> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "6:2 FTS "@en ; 
+    skos:prefLabel "6:2 FTS"@en ; 
     skos:definition "6:2 Fluorotelomer sulfonic acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4465,8 +4463,8 @@
 <https://linked.data.gov.au/def/qld-obsprop/8429cd0d-871a-52d3-8d21-d09f3385696e> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "FOSA "@en ; 
-    skos:definition "perfluoro octane sulfonamide"@en ; 
+    skos:prefLabel "FOSA"@en ; 
+    skos:definition "Perfluoro octane sulfonamide"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     skos:relatedMatch <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:138089> ;
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4490,8 +4488,8 @@
 <https://linked.data.gov.au/def/qld-obsprop/fe0102a5-ef7c-5ed1-8764-89f9ac8780df> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "N-EtFOSAA "@en ; 
-    skos:definition "N-ethylperfluorooctane sulfonamidoacetic acid"@en ; 
+    skos:prefLabel "N-EtFOSAA"@en ; 
+    skos:definition "N-Ethylperfluorooctane sulfonamidoacetic acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     skos:relatedMatch <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:83507> ;
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4503,8 +4501,8 @@
 <https://linked.data.gov.au/def/qld-obsprop/7c00ed1e-541b-55f3-8cf4-df941b83af61> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "N-EtFOSE "@en ; 
-    skos:definition "N-ethyl perfluorooctane sulfonamido ethanol"@en ; 
+    skos:prefLabel "N-EtFOSE"@en ; 
+    skos:definition "N-Ethyl perfluorooctane sulfonamido ethanol"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
@@ -4515,7 +4513,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/5a92a905-8846-5947-9c86-e866971012ff> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "N-MeFOSA "@en ; 
+    skos:prefLabel "N-MeFOSA"@en ; 
     skos:definition "N-Methyl-perfluoro octane sulfonamide "@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4527,7 +4525,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/bb8ef87e-dac6-5eec-8b39-544da2d8a879> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "N-MeFOSAA "@en ; 
+    skos:prefLabel "N-MeFOSAA"@en ; 
     skos:definition "N-Methyl perfluorooctane sulfonamido acetic acid "@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4539,7 +4537,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/f34f647f-1f0a-597e-92e8-52ef03f4e327> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "N-MeFOSE "@en ; 
+    skos:prefLabel "N-MeFOSE"@en ; 
     skos:definition "N-Methyl perfluoroctyl sulfonamido ethanol"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4551,8 +4549,8 @@
 <https://linked.data.gov.au/def/qld-obsprop/fd7d6dd5-4945-5611-9600-95368ada6403> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "PFBA "@en ; 
-    skos:definition "perfluorobutyric acid"@en ; 
+    skos:prefLabel "PFBA"@en ; 
+    skos:definition "Perfluorobutyric acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     skos:relatedMatch <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:39426> ;
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4564,7 +4562,7 @@
 <https://linked.data.gov.au/def/qld-obsprop/ac4e8c90-b1e3-5abd-80ea-66bc51721df2> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "PFBS "@en ; 
+    skos:prefLabel "PFBS"@en ; 
     skos:definition "Perfluorobutane Sulfonate"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4589,8 +4587,8 @@
 <https://linked.data.gov.au/def/qld-obsprop/04a50109-c092-5b09-95ad-3a964de0af5c> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "PFDoA "@en ; 
-    skos:definition "perfluorododecanoic acid"@en ; 
+    skos:prefLabel "PFDoA"@en ; 
+    skos:definition "Perfluorododecanoic acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     skos:relatedMatch <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:90633> ;
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4640,7 +4638,7 @@
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
     skos:prefLabel "PFHpS"@en ; 
-    skos:definition "perfluoro heptane sulfonate"@en ; 
+    skos:definition "Perfluoro heptane sulfonate"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
@@ -4690,7 +4688,7 @@
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
     skos:prefLabel "PFNA"@en ; 
-    skos:definition "perfluorononanoic acid"@en ; 
+    skos:definition "Perfluorononanoic acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     skos:relatedMatch <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:38397> ;
     qudt:hasQuantityKind quantitykind:MassDensity ; 
@@ -4728,7 +4726,7 @@
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
     skos:prefLabel "PFOS"@en ; 
-    skos:definition "perfluorooctane sulfonate"@en ; 
+    skos:definition "Perfluorooctane sulfonate"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
@@ -4752,7 +4750,7 @@
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
     skos:prefLabel "PFPeS"@en ; 
-    skos:definition "perfluoropentane sulfonate"@en ; 
+    skos:definition "Perfluoropentane sulfonate"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
@@ -4800,13 +4798,13 @@
 <https://linked.data.gov.au/def/qld-obsprop/090383db-8654-52ad-96a8-58c622f65dd0> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "Sum of PFHxS and PFOS by LCMS"@en ; 
-    skos:definition "Sum of PFHxS and PFOS by LCMS"@en ; 
+    skos:prefLabel "Sum of PFHxS and PFOS"@en ; 
+    skos:definition "Sum of PFHxS and PFOS"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-23"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/cc6ba2f6-f812-50d7-8d2a-c95e851b1284> 
@@ -4854,19 +4852,20 @@
     qudt:hasQuantityKind quantitykind:Conductivity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-23"^^xsd:date ;
+    owl:deprecated "true"^^xsd:boolean;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/dc60a5a5-9f38-5005-9af7-3d282446be6e> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "Dissolved Oxygen (FLD)"@en ; 
-    skos:definition "Dissolved Oxygen (FLD)"@en ; 
+    skos:prefLabel "Dissolved Oxygen"@en ; 
+    skos:definition "Dissolved Oxygen"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/414e519e-56a9-59d3-8675-862a51348026> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-23"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/ac2d0160-494e-57e1-9841-6ec9c030ab8f> 
@@ -4937,19 +4936,20 @@
     qudt:hasQuantityKind quantitykind:Turbidity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-23"^^xsd:date ;
+    owl:deprecated "true"^^xsd:boolean;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/f3cbabdf-06a6-5548-984d-b2fa0c0a89f8> 
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
-    skos:prefLabel "Water Temperature (FLD)"@en ; 
-    skos:definition "Water Temperature (FLD)"@en ; 
+    skos:prefLabel "Water Temperature"@en ; 
+    skos:definition "Water Temperature"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/414e519e-56a9-59d3-8675-862a51348026> ; 
     qudt:hasQuantityKind quantitykind:Temperature ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
-    dcterms:modified "2021-06-07"^^xsd:date ;
+    dcterms:modified "2021-11-23"^^xsd:date ;
 .
 
 <https://linked.data.gov.au/def/qld-obsprop/cc75db85-b794-5052-97dc-7de53bdaa971> 
