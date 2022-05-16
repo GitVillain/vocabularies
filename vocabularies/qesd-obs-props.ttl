@@ -11,7 +11,7 @@
 <https://linked.data.gov.au/def/qld-obsprop>
     a owl:Ontology , skos:ConceptScheme ;
     dcterms:created "2021-06-06"^^xsd:date ;
-    dcterms:modified "2021-11-15"^^xsd:date ;
+    dcterms:modified "2022-05-16"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/des> ;
     dcterms:publisher <https://linked.data.gov.au/org/gsq> ;
     skos:prefLabel "Queensland Environmental Science Data Observed Properties"@en ;
@@ -4416,7 +4416,7 @@
     a skos:Concept ; 
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
     skos:prefLabel "10:2 FTS"@en ; 
-    skos:definition "10:2  Fluorotelomer sulfonic acid"@en ; 
+    skos:definition "10:2 Fluorotelomer sulfonic acid"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/c9803b8c-93f4-5d7c-8f62-6212703a8610> ; 
     qudt:hasQuantityKind quantitykind:MassDensity ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
