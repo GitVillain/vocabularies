@@ -65,7 +65,7 @@ unit:NUM
   a qudt:CountingUnit , qudt:Unit , skos:Concept ;
   skos:definition "Number is a unit for 'Dimensionless' expressed as #." ;
   qudt:hasQuantityKind quantitykind:Dimensionless ;
-  qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
+  #qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Number"@en ;
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
@@ -152,7 +152,7 @@ unit:DEG_C
 unit:M3-PER-SEC
   a qudt:DerivedUnit , qudt:Unit , skos:Concept ;
   skos:definition "A cubic metre per second m^3/s, cumecs or cubic meter per second in American English) is a derived SI unit of flow rate equal to that of a stere or cube with sides of one metre in length exchanged or moving each second. It is popularly used for water flow, especially in rivers and streams, and fractions for HVAC values measuring air flow." ;
-  qudt:hasQuantityKind quantitykind:VolumeFlowRate ;
+  #qudt:hasQuantityKind quantitykind:VolumeFlowRate ;
   qudt:hasQuantityKind quantitykind:VolumePerUnitTime ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   rdfs:label "Cubic Meter per Second"@en-us ;
@@ -276,7 +276,7 @@ unit:KiloM
 unit:M3-PER-HR
   a qudt:DerivedUnit , qudt:Unit , skos:Concept ;
   skos:definition "Cubic Meter Per Hour (m3/h) is a unit in the category of Volume flow rate. It is also known as cubic meters per hour, cubic metre per hour, cubic metres per hour, cubic meter/hour, cubic metre/hour, cubic meter/hr, cubic metre/hr, flowrate. Cubic Meter Per Hour (m3/h) has a dimension of L3T-1 where L is length, and T is time. It can be converted to the corresponding standard SI unit m3/s by multiplying its value by a factor of 0.00027777777." ;
-  qudt:hasQuantityKind quantitykind:VolumeFlowRate ;
+  #qudt:hasQuantityKind quantitykind:VolumeFlowRate ;
   qudt:hasQuantityKind quantitykind:VolumePerUnitTime ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Cubic Metre per Hour"@en ;
@@ -289,7 +289,7 @@ unit:MOL
   a qudt:Unit , skos:Concept ;
   skos:definition "The mole is a unit of measurement used in chemistry to express amounts of a chemical substance. The official definition, adopted as part of the SI system in 1971, is that one mole of a substance contains just as many elementary entities (atoms, molecules, ions, or other kinds of particles) as there are atoms in 12 grams of carbon-12 (carbon-12 is the most common atomic form of carbon, consisting of atoms having 6 protons and 6 neutrons).  This corresponds to a value of 6.02214179 times 10(23) elementary entities of the substance. It is one of the base units in the International System of Units, and has the unit symbol (mol). A Mole is the SI base unit of the amount of a substance (as distinct from its mass or weight). Moles measure the actual number of atoms or molecules in an object. An earlier name is gram molecular weight, because one mole of a chemical compound is the same number of grams as the molecular weight of a molecule of that compound measured in atomic mass units." ;
   qudt:hasQuantityKind quantitykind:AmountOfSubstance ;
-  qudt:hasQuantityKind quantitykind:ExtentOfReaction ;
+  #qudt:hasQuantityKind quantitykind:ExtentOfReaction ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Mole"@en ;
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
@@ -300,7 +300,7 @@ unit:MOL
 unit:SEC
   a qudt:Unit , skos:Concept ;
   skos:definition "The Second (symbol: s) is the base unit of time in the International System of Units (SI) and is also a unit of time in other systems of measurement." ;
-  qudt:hasQuantityKind quantitykind:Period ;
+  #qudt:hasQuantityKind quantitykind:Period ;
   qudt:hasQuantityKind quantitykind:Time ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Second"@en ;
@@ -312,19 +312,19 @@ unit:SEC
 unit:UNITLESS
   a qudt:CountingUnit , qudt:DimensionlessUnit , qudt:Unit , skos:Concept ;
   skos:definition "An explicit unit to say something has no units." ;
-  qudt:hasQuantityKind quantitykind:Absorptance ;
-  qudt:hasQuantityKind quantitykind:ActivityCoefficient ;
-  qudt:hasQuantityKind quantitykind:AmountOfSubstanceFractionOfB ;
+  #qudt:hasQuantityKind quantitykind:Absorptance ;
+  #qudt:hasQuantityKind quantitykind:ActivityCoefficient ;
+  #qudt:hasQuantityKind quantitykind:AmountOfSubstanceFractionOfB ;
   qudt:hasQuantityKind quantitykind:Dimensionless ;
-  qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
-  qudt:hasQuantityKind quantitykind:MassFraction ;
-  qudt:hasQuantityKind quantitykind:MassFractionOfDryMatter ;
-  qudt:hasQuantityKind quantitykind:MultiplicationFactor ;
-  qudt:hasQuantityKind quantitykind:RelativeHumidity ;
-  qudt:hasQuantityKind quantitykind:RelativeMassConcentrationOfVapour ;
-  qudt:hasQuantityKind quantitykind:RelativeMassDensity ;
-  qudt:hasQuantityKind quantitykind:RelativePartialPressure ;
-  qudt:hasQuantityKind quantitykind:StatisticalWeight ;
+  #qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
+  #qudt:hasQuantityKind quantitykind:MassFraction ;
+  #qudt:hasQuantityKind quantitykind:MassFractionOfDryMatter ;
+  #qudt:hasQuantityKind quantitykind:MultiplicationFactor ;
+  #qudt:hasQuantityKind quantitykind:RelativeHumidity ;
+  #qudt:hasQuantityKind quantitykind:RelativeMassConcentrationOfVapour ;
+  #qudt:hasQuantityKind quantitykind:RelativeMassDensity ;
+  #qudt:hasQuantityKind quantitykind:RelativePartialPressure ;
+  #qudt:hasQuantityKind quantitykind:StatisticalWeight ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Unitless"@en ;
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
@@ -336,10 +336,10 @@ unit:PERCENT
   a qudt:Unit , skos:Concept ;
   skos:definition "Percent is a unit for  'Dimensionless Ratio' expressed as %." ;
   qudt:hasQuantityKind quantitykind:DimensionlessRatio ;
-  qudt:hasQuantityKind quantitykind:LengthPercentage ;
-  qudt:hasQuantityKind quantitykind:PressurePercentage ;
-  qudt:hasQuantityKind quantitykind:ResistancePercentage ;
-  qudt:hasQuantityKind quantitykind:TimePercentage ;
+  #qudt:hasQuantityKind quantitykind:LengthPercentage ;
+  #qudt:hasQuantityKind quantitykind:PressurePercentage ;
+  #qudt:hasQuantityKind quantitykind:ResistancePercentage ;
+  #qudt:hasQuantityKind quantitykind:TimePercentage ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Percent"@en ;
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
@@ -360,9 +360,9 @@ unit:PERCENT_RH
 
 unit:CentiMOL-PER-KiloGM
   a qudt:Unit , skos:Concept ;
-  qudt:hasQuantityKind quantitykind:AmountOfSubstancePerUnitMass ;
+  #qudt:hasQuantityKind quantitykind:AmountOfSubstancePerUnitMass ;
   qudt:hasQuantityKind quantitykind:IonicStrength ;
-  qudt:hasQuantityKind quantitykind:MolalityOfSolute ;
+  #qudt:hasQuantityKind quantitykind:MolalityOfSolute ;
   skos:definition "1/100 of SI unit of amount of substance per kilogram" ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Centimole per kilogram"@en ;

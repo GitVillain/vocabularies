@@ -1263,7 +1263,7 @@
     skos:prefLabel "Particle Size <0.24 µm (Extremely fine clay)"@en ; 
     skos:definition "Particle Size <0.24 µm (Extremely fine clay)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1275,7 +1275,7 @@
     skos:prefLabel "Particle Size <62.5 µm (Silt and Clay)"@en ; 
     skos:definition "Particle Size <62.5 µm (Silt and Clay)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1287,7 +1287,7 @@
     skos:prefLabel "Particle Size 0.5 µm - 0.24 µm (Very fine clay)"@en ; 
     skos:definition "Particle Size 0.5 µm - 0.24 µm (Very fine clay)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1299,7 +1299,7 @@
     skos:prefLabel "Particle Size 1 µm - 0.5 µm (Fine clay)"@en ; 
     skos:definition "Particle Size 1 µm - 0.5 µm (Fine clay)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1311,7 +1311,7 @@
     skos:prefLabel "Particle Size 1000 µm - 500 µm (Coarse sand)"@en ; 
     skos:definition "Particle Size 1000 µm - 500 µm (Coarse sand)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1323,7 +1323,7 @@
     skos:prefLabel "Particle Size 125 µm - 62 µm (Very fine sand)"@en ; 
     skos:definition "Particle Size 125 µm - 62 µm (Very fine sand)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1335,7 +1335,7 @@
     skos:prefLabel "Particle Size 16 µm - 8 µm (Fine silt)"@en ; 
     skos:definition "Particle Size 16 µm - 8 µm (Fine silt)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1347,7 +1347,7 @@
     skos:prefLabel "Particle Size 2 µm - 1 µm (Medium clay)"@en ; 
     skos:definition "Particle Size 2 µm - 1 µm (Medium clay)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1359,7 +1359,7 @@
     skos:prefLabel "Particle Size 2000 µm - 1000 µm (Very coarse sand)"@en ; 
     skos:definition "Particle Size 2000 µm - 1000 µm (Very coarse sand)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1371,7 +1371,7 @@
     skos:prefLabel "Particle Size 250 µm - 125 µm (Fine sand)"@en ; 
     skos:definition "Particle Size 250 µm - 125 µm (Fine sand)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1383,7 +1383,7 @@
     skos:prefLabel "Particle Size 31 µm - 16 µm (Medium silt)"@en ; 
     skos:definition "Particle Size 31 µm - 16 µm (Medium silt)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1395,7 +1395,7 @@
     skos:prefLabel "Particle Size 4 µm - 2 µm (Coarse clay)"@en ; 
     skos:definition "Particle Size 4 µm - 2 µm (Coarse clay)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1407,7 +1407,7 @@
     skos:prefLabel "Particle Size 500 µm - 250 µm (Medium sand)"@en ; 
     skos:definition "Particle Size 500 µm - 250 µm (Medium sand)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1419,7 +1419,7 @@
     skos:prefLabel "Particle Size 62 µm - 31 µm (Coarse silt)"@en ; 
     skos:definition "Particle Size 62 µm - 31 µm (Coarse silt)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
@@ -1431,7 +1431,7 @@
     skos:prefLabel "Particle Size 8 µm - 4 µm (Very fine silt)"@en ; 
     skos:definition "Particle Size 8 µm - 4 µm (Very fine silt)"@en ; 
     skos:broader <https://linked.data.gov.au/def/qld-obsprop/f4f1faad-4cdf-5f19-b678-f353b5df6417> ; 
-    qudt:hasQuantityKind quantitykind:DimensionlessRatio ; 
+    qudt:hasQuantityKind quantitykind:Dimensionless ; 
     dcterms:created "2021-06-07"^^xsd:date ; 
     rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
     dcterms:modified "2021-06-07"^^xsd:date ;
