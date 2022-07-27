@@ -129,7 +129,7 @@
         <http://linked.data.gov.au/def/tern-cv/743b223a-ef67-45e2-ab01-02c395434690>,
         <http://linked.data.gov.au/def/tern-cv/74c71500-0bae-43c9-8db0-bd6940899af1>,
         <http://linked.data.gov.au/def/tern-cv/83ac0278-51cd-4d1a-8e05-7c1fc68cf020>,
-        <http://linked.data.gov.au/def/tern-cv/90380980-9914-4dd8-8d83-008fb6adeb24>,Update
+        <http://linked.data.gov.au/def/tern-cv/90380980-9914-4dd8-8d83-008fb6adeb24>,
         <http://linked.data.gov.au/def/tern-cv/959de812-0e1a-414d-b75f-4113d69fd49e>,
         <http://linked.data.gov.au/def/tern-cv/9b9f21a8-1f49-4cee-b537-3297bc706500>,
         <http://linked.data.gov.au/def/tern-cv/a3ad8f31-6896-416e-8ac6-bc61b93aaab5>,
@@ -486,6 +486,7 @@
    a skos:Concept ;
     skos:topConceptOf <https://linked.data.gov.au/def/qld-obsprop> ;
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
+    rdfs:isDefinedBy <http://linked.data.gov.au/def/tern-cv/5699eca7-9ef0-47a6-bcfb-9306e0e2b85e> ;
     skos:narrower 
         <https://linked.data.gov.au/def/qld-obsprop/50fe54ff-7559-5f90-9769-bd40511582f6> ,
         <https://linked.data.gov.au/def/qld-obsprop/93ea25c2-3eca-5881-8bda-39e93b75a3c1> ,
@@ -505,6 +506,7 @@
    a skos:Concept ;
     skos:topConceptOf <https://linked.data.gov.au/def/qld-obsprop> ;
     skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ;
     skos:narrower 
          <https://linked.data.gov.au/def/qld-obsprop/5fb80b7c-b505-5960-853a-23c85c7cf472> ;
     skos:prefLabel "oceanographic parameter"@en ; 
