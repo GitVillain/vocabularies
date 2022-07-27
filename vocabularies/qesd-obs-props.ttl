@@ -501,6 +501,19 @@
     skos:definition "A clear, odorless, tasteless liquid that is essential for most animal and plant life, and is an excellent solvent for many substances."@en ; 
 . 
 
+<https://linked.data.gov.au/def/qld-obsprop/2ac0e547-d4ca-5167-a250-79bc59b4f452>
+   a skos:Concept ;
+    skos:topConceptOf <https://linked.data.gov.au/def/qld-obsprop> ;
+    skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
+    skos:narrower 
+         <https://linked.data.gov.au/def/qld-obsprop/5fb80b7c-b505-5960-853a-23c85c7cf472> ;
+    skos:prefLabel "oceanographic parameter"@en ; 
+    skos:definition "The elements and conditions which are found in, influence and affect oceans and coasts; oceanography is the study of the oceans."@en ; 
+    skos:created "2022-07-27"^^xsd:date ;
+    skos:modified "2022-07-27"^^xsd:date ;
+. 
+
+
 #  QESD Parameters belong in this section
 
 <https://linked.data.gov.au/def/qld-obsprop/50fe54ff-7559-5f90-9769-bd40511582f6>
@@ -5660,6 +5673,18 @@
     dcterms:modified "2021-06-07"^^xsd:date ;
 .
 
+<https://linked.data.gov.au/def/qld-obsprop/5fb80b7c-b505-5960-853a-23c85c7cf472> 
+    a skos:Concept ; 
+    skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
+    rdfs:isDefinedBy <https://linked.data.gov.au/def/qld-obsprop> ; 
+    skos:broader <https://linked.data.gov.au/def/qld-obsprop/2ac0e547-d4ca-5167-a250-79bc59b4f452> ;
+    skos:prefLabel "Waves"@en ; 
+    skos:definition "Parameters that relate to the definition, measurement and affect of waves."@en ;
+    skos:narrower <http://vocab.aodn.org.au/def/discovery_parameter/entity/2> ;
+    dcterms:created "2022-07-27"^^xsd:date ; 
+    dcterms:modified "2022-07-27"^^xsd:date ;
+.
+
 # TERN parameters are in this section
 
 <http://linked.data.gov.au/def/tern-cv/3a03227d-1b66-4c63-b7aa-f9ccbb70d1cf> a skos:Concept ;
@@ -8946,4 +8971,18 @@
     skos:broader <http://linked.data.gov.au/def/tern-cv/45ae73d8-92bd-4261-a05f-7bfac228e1f7> ; 
     dcterms:created "2021-05-24T01:04:02"^^xsd:datetime ; 
     dcterms:modified "2021-05-24T01:14:28"^^xsd:datetime ;
+.
+
+
+# AODN Parameters belong in this section
+
+<http://vocab.aodn.org.au/def/discovery_parameter/entity/2> 
+    a skos:Concept ;
+	skos:inScheme <https://linked.data.gov.au/def/qld-obsprop> ; 
+    rdfs:isDefinedBy <http://vocab.aodn.org.au/def/discovery_parameter/1> ;
+    skos:definition "Significant wave height approximated as four times the square root of the first moment of the wave power spectrum."@en ;
+	skos:prefLabel "Spectral significant height of waves on the water body"@en ;
+	skos:broader <https://linked.data.gov.au/def/qld-obsprop/5fb80b7c-b505-5960-853a-23c85c7cf472> ;
+    dcterms:created "2015-08-06T06:43:53Z"^^xsd:dateTime ;
+	dcterms:modified "2018-02-23T00:23:33Z"^^xsd:dateTime ;
 .
