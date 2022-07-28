@@ -57,7 +57,9 @@
         unit:M2 ,
         unit:MIN ,
         unit:YR ,
-        unit:M3 
+        unit:M3 ,
+        unit:RAD ,
+        unit:DEG 
 ;
 .
 
@@ -487,7 +489,29 @@ unit:M3
   qudt:hasQuantityKind quantitykind:Volume ;
   rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
   skos:prefLabel "Cubic Metre"@en ;
-    rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
+  rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
+  skos:inScheme <https://linked.data.gov.au/def/qesd-uom> ;
+  skos:topConceptOf <https://linked.data.gov.au/def/qesd-uom> ;
+.
+
+unit:RAD
+  a qudt:DerivedUnit , qudt:Unit , skos:Concept ;
+  skos:definition "The radian is the standard unit of angular measure, used in many areas of mathematics. It describes the plane angle subtended by a circular arc as the length of the arc divided by the radius of the arc. In the absence of any symbol radians are assumed, and when degrees are meant the symbol \\(^{\\ circ}\\) is used. "^^qudt:LatexString ;
+  qudt:hasQuantityKind quantitykind:Angle ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:prefLabel "Radian"@en ;
+  rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
+  skos:inScheme <https://linked.data.gov.au/def/qesd-uom> ;
+  skos:topConceptOf <https://linked.data.gov.au/def/qesd-uom> ;
+.
+
+unit:DEG
+  a qudt:Unit , skos:Concept ;
+  skos:definition "A degree (in full, a degree of arc, arc degree, or arcdegree), usually denoted by \\(^\\circ\\) (the degree symbol), is a measurement of plane angle, representing 1/360 of a full rotation; one degree is equivalent to  \\(2\\pi /360 rad\\), \\(0.017453 rad\\). It is not an SI unit, as the SI unit for angles is radian, but is an accepted SI unit."^^qudt:LatexString ;
+  rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
+  rdfs:prefLabel "Degree"@en ;
+  qudt:hasQuantityKind quantitykind:Angle ;
+  rdfs:isDefinedBy <https://linked.data.gov.au/def/qesd-uom> ;
   skos:inScheme <https://linked.data.gov.au/def/qesd-uom> ;
   skos:topConceptOf <https://linked.data.gov.au/def/qesd-uom> ;
 .

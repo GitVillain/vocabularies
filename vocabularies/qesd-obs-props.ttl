@@ -8984,6 +8984,7 @@
     rdfs:isDefinedBy <http://vocab.aodn.org.au/def/discovery_parameter/1> ;
     skos:definition "Significant wave height approximated as four times the square root of the first moment of the wave power spectrum."@en ;
 	skos:prefLabel "Spectral significant height of waves on the water body"@en ;
+    qudt:hasQuantityKind quantitykind:Length ;
 	skos:broader <https://linked.data.gov.au/def/qld-obsprop/5fb80b7c-b505-5960-853a-23c85c7cf472> ;
     dcterms:created "2015-08-06T06:43:53Z"^^xsd:dateTime ;
 	dcterms:modified "2018-02-23T00:23:33Z"^^xsd:dateTime ;
